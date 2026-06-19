@@ -213,7 +213,7 @@
                                 <div class="profile-meta">
                                     <div class="profile-name"><?php echo e($account->profile->display_name ?? $account->profile->username ?? 'Unknown'); ?></div>
                                     <?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if BLOCK]><![endif]--><?php endif; ?><?php if($account->profile->username): ?>
-                                        <div class="profile-handle">{{ $account->profile->username }}</div>
+                                        <div class="profile-handle"><?php echo e($account->profile->username); ?></div>
                                     <?php endif; ?><?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if ENDBLOCK]><![endif]--><?php endif; ?>
                                     <?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if BLOCK]><![endif]--><?php endif; ?><?php if($account->profile->account_type): ?>
                                         <div class="profile-type"><?php echo e(ucwords(strtolower(str_replace('_', ' ', $account->profile->account_type)))); ?></div>
