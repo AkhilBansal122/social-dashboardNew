@@ -22,7 +22,7 @@ class SocialAccountFactory extends Factory
             'status'           => 'active',
             'status_message'   => null,
             'last_synced_at'   => null,
-            'scopes'           => 'instagram_basic',
+            'scopes'           => 'instagram_business_basic',
         ];
     }
 

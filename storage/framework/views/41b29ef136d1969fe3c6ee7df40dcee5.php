@@ -186,4 +186,4 @@
 
 </body>
 </html>
-<?php /**PATH C:\laragon\www\social-dashboard-v2\resources\views/layouts/app.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\laragon\www\New folder\social-dashboard-v2\resources\views/layouts/app.blade.php ENDPATH**/ ?>

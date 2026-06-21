@@ -24,4 +24,4 @@
         <span class="pager-btn disabled">›</span>
     <?php endif; ?><?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if ENDBLOCK]><![endif]--><?php endif; ?>
 <?php endif; ?><?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if ENDBLOCK]><![endif]--><?php endif; ?>
-<?php /**PATH C:\laragon\www\social-dashboard-v2\resources\views/livewire/pagination.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\laragon\www\New folder\social-dashboard-v2\resources\views/livewire/pagination.blade.php ENDPATH**/ ?>

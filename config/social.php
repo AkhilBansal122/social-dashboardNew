@@ -19,13 +19,15 @@ return [
         'redirect_uri'         => env('INSTAGRAM_REDIRECT_URI', env('APP_URL', 'http://localhost:8000') . '/auth/instagram/callback'),
 
         /*
-         * Instagram Basic Display API scopes.
-         * For a Business/Creator account also add:
-         *   instagram_manage_insights, pages_show_list, pages_read_engagement
+         * Instagram API with Instagram Login (replaces the retired
+         * Instagram Basic Display API, sunset Dec 4 2024).
+         * Only works with Business or Creator Instagram accounts.
+         * Add instagram_business_content_publish / instagram_business_manage_comments
+         * etc. if your app needs those permissions.
          */
-        'scopes'               => ['instagram_basic', 'instagram_manage_insights'],
+        'scopes'               => ['instagram_business_basic', 'instagram_business_manage_insights'],
 
-        // Meta / Instagram Graph API endpoints
+        // Meta / Instagram API with Instagram Login endpoints
         'graph_url'            => 'https://graph.instagram.com',
         'auth_url'             => 'https://api.instagram.com/oauth/authorize',
         'token_url'            => 'https://api.instagram.com/oauth/access_token',

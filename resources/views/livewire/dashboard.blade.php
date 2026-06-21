@@ -208,7 +208,7 @@
                                 <div class="profile-meta">
                                     <div class="profile-name">{{ $account->profile->display_name ?? $account->profile->username ?? 'Unknown' }}</div>
                                     @if ($account->profile->username)
-                                        <div class="profile-handle">@{{ $account->profile->username }}</div>
+                                        <div class="profile-handle">{{ $account->profile->username }}</div>
                                     @endif
                                     @if ($account->profile->account_type)
                                         <div class="profile-type">{{ ucwords(strtolower(str_replace('_', ' ', $account->profile->account_type))) }}</div>

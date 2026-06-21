@@ -410,4 +410,4 @@
 
 </div>
 </div>
-<?php /**PATH C:\laragon\www\social-dashboard-v2\resources\views/livewire/dashboard.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\laragon\www\New folder\social-dashboard-v2\resources\views/livewire/dashboard.blade.php ENDPATH**/ ?>

@@ -30,7 +30,7 @@ class DemoDataSeeder extends Seeder
                 'status'           => 'active',
                 'status_message'   => null,
                 'last_synced_at'   => now()->subMinutes(5),
-                'scopes'           => 'instagram_basic,instagram_manage_insights',
+                'scopes'           => 'instagram_business_basic,instagram_business_manage_insights',
             ]
         );
 
